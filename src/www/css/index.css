@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+body {
+    background: rgb(39, 39, 39);
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+.page {
+    text-align: center;
+}
+
+#body {
+    margin-top: 5%;
+    font-size: 15pt;
+}
+
+#language {
+    font-size: 20pt;
+    color: blue;
+}
+
+#subdomain {
+    font-size: 15pt;
+}
