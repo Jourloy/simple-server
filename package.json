@@ -1,0 +1,36 @@
+{
+  "name": "jourloy-simple-server",
+  "version": "1.0.0",
+  "description": "Simple server on TypeScript",
+  "main": "src/main.ts",
+  "scripts": {
+    "start": "node ./dist/main.js",
+    "test": "node ./dist/main_test.js",
+    "build": "tsc --project ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jourloy/simple-server.git"
+  },
+  "keywords": [
+    "TypeScript",
+    "server",
+    "expressJS"
+  ],
+  "author": "Jourloy",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/Jourloy/simple-server/issues"
+  },
+  "homepage": "https://github.com/Jourloy/simple-server#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "express-subdomain": "^1.0.5"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "@types/node": "^14.14.41",
+    "typescript": "^4.2.4"
+  }
+}
